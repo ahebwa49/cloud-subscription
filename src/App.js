@@ -1,26 +1,26 @@
-import logo from "./logo.svg";
+import React, { useState } from "react";
 import "./App.scss";
+import Subscription from "./Subscription";
+import Payment from "./Payment";
 
 function App() {
+  const [step, setStep] = useState(0);
   return (
     <div className="App">
-      <form>
-        <div className="form-group">
-          <label htmlFor="email" className="form-label">
-            Your Email
-          </label>
-          <input
-            type="text"
-            id="email"
-            name="email"
-            // value={this.state.username}
-            // onChange={this.handleUsernameChange}
-            placeholder="example@gmail.com"
-            required
-            className="form-input"
-          />
-        </div>
-      </form>
+      {step === 0 && <Subscription />}
+      {step === 1 && <Payment />}
+      <div className="AppButtons">
+        {step ? (
+          <div className="AppButtonsBack" onClick={() => setStep(step - 1)}>
+            back
+          </div>
+        ) : null}
+        {step === 2 ? null : (
+          <div className="AppButtonsNext" onClick={() => setStep(step + 1)}>
+            next
+          </div>
+        )}
+      </div>
     </div>
   );
 }

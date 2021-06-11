@@ -1,12 +1,29 @@
 .App {
-  width: 400;
-  height: 400;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // border: 1px solid red;
 }
-
-.form{
-  
+.AppButtons {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  padding: 0rem 1rem;
 }
-
+.AppButtonsNext {
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  background-color: blue;
+  border-radius: 3px;
+  margin-top: 1rem;
+}
+.AppButtonsBack {
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  background-color: blue;
+  border-radius: 3px;
+  margin-top: 1rem;
+}
