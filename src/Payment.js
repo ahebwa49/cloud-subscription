@@ -23,9 +23,9 @@ const Payment = () => {
   return (
     <div className="Payment">
       <h3>Payment Data </h3>
-      <form className="SubscriptionForm">
-        <div className="SubscriptionFormGroup">
-          <label htmlFor="cardNumber" className="SubscriptionFormGroup__label">
+      <form className="PaymentForm">
+        <div className="PaymentFormGroup">
+          <label htmlFor="cardNumber" className="PaymentFormGroup__label">
             Card Number
           </label>
           <input
@@ -37,10 +37,10 @@ const Payment = () => {
             onChange={onCardNumberChange}
           />
         </div>
-        <div className="SubscriptionFormGroup">
+        <div className="PaymentFormGroup">
           <label
             htmlFor="expirationDate"
-            className="SubscriptionFormGroup__label"
+            className="PaymentFormGroup__label"
           >
             Expiration Date
           </label>
@@ -53,10 +53,10 @@ const Payment = () => {
             onChange={onExpirationDateChange}
           />
         </div>
-        <div className="SubscriptionFormGroup">
+        <div className="PaymentFormGroup">
           <label
             htmlFor="securityCode"
-            className="SubscriptionFormGroup__label"
+            className="PaymentFormGroup__label"
           >
             Security Code
           </label>

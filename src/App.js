@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.scss";
 import Subscription from "./Subscription";
 import Payment from "./Payment";
+import Confirmation from "./Confirmation";
 
 function App() {
   const [step, setStep] = useState(0);
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       {step === 0 && <Subscription />}
       {step === 1 && <Payment />}
+      {step === 2 && <Confirmation />}
       <div className="AppButtons">
         {step ? (
           <div className="AppButtonsBack" onClick={() => setStep(step - 1)}>
