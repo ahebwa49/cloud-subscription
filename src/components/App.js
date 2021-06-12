@@ -23,10 +23,6 @@ function App() {
   const [email, setEmail] = useState("");
   const [termsAndConditions, setTermsAndConditions] = useState(false);
 
-  useEffect(() => {
-    fetchPlans();
-  }, []);
-
   const fetchPlans = async () => {
     const response = await axios.get(
       "https://cloud-storage-prices-moberries.herokuapp.com/prices",
@@ -44,6 +40,10 @@ function App() {
       setPlans(plans);
     }
   };
+
+  useEffect(() => {
+    fetchPlans();
+  }, []);
 
   const onEmailChange = (e) => {
     setEmail(e.target.value);
