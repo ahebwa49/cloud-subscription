@@ -1,6 +1,6 @@
 ## Cloud subscription demo app by Livingstone Asabahebwa
 
-To get started, clone tha app and navigate into the root folder.
+To get started, clone the repo and navigate into the root folder.
 
 Run `yarn` to install dependencies.
 
