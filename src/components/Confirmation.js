@@ -27,14 +27,29 @@ const Confirmation = ({
     <div className="Confirmation">
       <h4>Confirmation</h4>
       <div className="ConfirmationSummary">
-        <span>Subscription Plan: {selectedPlan.duration_months} months, </span>
-        {selectedPlan.price_usd_per_gb}USD per GB
+        <span>
+          Subscription Plan:{" "}
+          <span className="ConfirmationSummaryDuration">
+            {selectedPlan.duration_months}
+          </span>
+          months,
+        </span>
+        <span className="ConfirmationSummaryPrice">
+          {selectedPlan.price_usd_per_gb}
+        </span>
+        USD per GB
         <br />
         <br />
-        <span>Amount of gigabytes in a cloud: {storage}GB</span>
+        <span>
+          Amount of gigabytes in a cloud:{" "}
+          <span className="ConfirmationSummaryStorage">{storage}</span>GB
+        </span>
         <br />
         <br />
-        <span>Upfront Payment: {upfrontPayment}</span>
+        <span>
+          Upfront Payment:{" "}
+          <span className="ConfirmationSummaryUpfront">{upfrontPayment}</span>
+        </span>
         <br />
         <br />
         <span>Total Price: {totalPrice}USD</span>

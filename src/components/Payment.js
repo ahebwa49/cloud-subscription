@@ -23,13 +23,24 @@ const Payment = ({
     <div className="Payment">
       <h4>Payment Data </h4>
       <div className="PaymentPlan">
-        Subscription Plan: {selectedPlan.duration_months} months,{" "}
-        {selectedPlan.price_usd_per_gb}USD per GB
+        Subscription Plan:{" "}
+        <span className="PaymentPlanDuration">
+          {selectedPlan.duration_months}
+        </span>
+        months,
+        <span className="PaymentPlanPrice">
+          {selectedPlan.price_usd_per_gb}
+        </span>
+        USD per GB
       </div>
       <div className="PaymentTotal">
-        Amount of gigabytes in a cloud: {storage}GB
+        Amount of gigabytes in a cloud:{" "}
+        <span className="PaymentTotalStorage">{storage}</span>GB
       </div>
-      <div className="PaymentTotal">Upfront Payment: {upfrontPayment}</div>
+      <div className="PaymentTotal">
+        Upfront Payment:{" "}
+        <span className="PaymentTotalUpfront">{upfrontPayment}</span>
+      </div>
       <div className="PaymentTotal">Total Price: {totalPrice}USD</div>
       <form className="PaymentForm">
         <div className="PaymentFormGroup">

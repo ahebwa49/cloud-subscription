@@ -11,24 +11,43 @@ exports[`create App snapshot create snapshot 1`] = `
     className="ConfirmationSummary"
   >
     <span>
-      Subscription Plan: 
-      12
-       months, 
+      Subscription Plan:
+       
+      <span
+        className="ConfirmationSummaryDuration"
+      >
+        12
+      </span>
+      months,
     </span>
-    2
+    <span
+      className="ConfirmationSummaryPrice"
+    >
+      2
+    </span>
     USD per GB
     <br />
     <br />
     <span>
-      Amount of gigabytes in a cloud: 
-      50
+      Amount of gigabytes in a cloud:
+       
+      <span
+        className="ConfirmationSummaryStorage"
+      >
+        50
+      </span>
       GB
     </span>
     <br />
     <br />
     <span>
-      Upfront Payment: 
-      yes
+      Upfront Payment:
+       
+      <span
+        className="ConfirmationSummaryUpfront"
+      >
+        yes
+      </span>
     </span>
     <br />
     <br />

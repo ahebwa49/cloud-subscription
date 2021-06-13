@@ -1,0 +1,7 @@
+export const plans = [
+  { duration_months: 3, price_usd_per_gb: 3 },
+  { duration_months: 6, price_usd_per_gb: 2.5 },
+  { duration_months: 12, price_usd_per_gb: 2 },
+];
+export const storage = 5;
+export const duration = 6;

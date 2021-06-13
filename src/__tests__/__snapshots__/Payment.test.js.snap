@@ -10,25 +10,43 @@ exports[`create Payment snapshot create snapshot 1`] = `
   <div
     className="PaymentPlan"
   >
-    Subscription Plan: 
-    12
-     months,
+    Subscription Plan:
      
-    2
+    <span
+      className="PaymentPlanDuration"
+    >
+      12
+    </span>
+    months,
+    <span
+      className="PaymentPlanPrice"
+    >
+      2
+    </span>
     USD per GB
   </div>
   <div
     className="PaymentTotal"
   >
-    Amount of gigabytes in a cloud: 
-    10
+    Amount of gigabytes in a cloud:
+     
+    <span
+      className="PaymentTotalStorage"
+    >
+      10
+    </span>
     GB
   </div>
   <div
     className="PaymentTotal"
   >
-    Upfront Payment: 
-    yes
+    Upfront Payment:
+     
+    <span
+      className="PaymentTotalUpfront"
+    >
+      yes
+    </span>
   </div>
   <div
     className="PaymentTotal"
