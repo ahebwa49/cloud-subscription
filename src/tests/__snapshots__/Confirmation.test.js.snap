@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create App snapshot create snapshot 1`] = `
+<div
+  className="Confirmation"
+>
+  <h4>
+    Confirmation
+  </h4>
+  <div
+    className="ConfirmationSummary"
+  >
+    <span>
+      Subscription Plan: 
+      12
+       months, 
+    </span>
+    2
+    USD per GB
+    <br />
+    <br />
+    <span>
+      Amount of gigabytes in a cloud: 
+      50
+      GB
+    </span>
+    <br />
+    <br />
+    <span>
+      Upfront Payment: 
+      yes
+    </span>
+    <br />
+    <br />
+    <span>
+      Total Price: 
+      100
+      USD
+    </span>
+  </div>
+  <form
+    className="ConfirmationForm"
+    onSubmit={[Function]}
+  >
+    <div
+      className="ConfirmationFormGroup"
+    >
+      <label
+        className="ConfirmationFormGroup__label"
+        htmlFor="email"
+      >
+        Email:
+         
+      </label>
+      <input
+        name="email"
+        onChange={[Function]}
+        placeholder="Enter your email..."
+        required={true}
+        type="email"
+        value="ahebwa49@gmail.com"
+      />
+    </div>
+    <div
+      className="ConfirmationFormGroup"
+    >
+      <input
+        checked={true}
+        name="termsAndConditions"
+        onChange={[Function]}
+        required={true}
+        type="checkbox"
+        value={true}
+      />
+      <label
+        className="ConfirmationFormGroup__label"
+        htmlFor="email"
+      >
+        Terms and conditions agreement
+      </label>
+    </div>
+    <button
+      type="submit"
+    >
+      Submit
+    </button>
+  </form>
+</div>
+`;

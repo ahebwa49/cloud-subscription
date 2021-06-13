@@ -1,0 +1,325 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create Subscription snapshot create snapshot 1`] = `
+<div
+  className="Subscription"
+>
+  <h4>
+    Subscription Parameters
+  </h4>
+  <form
+    className="SubscriptionForm"
+  >
+    <div
+      className="SubscriptionFormGroup"
+    >
+      <label
+        className="SubscriptionFormGroup__label"
+        htmlFor="duration"
+      >
+        Duration:
+      </label>
+      <br />
+      <div>
+        <input
+          checked={false}
+          name="duration"
+          onChange={[Function]}
+          required={true}
+          type="radio"
+          value={3}
+        />
+        <span>
+          3
+           months, price usd per gb:
+           
+          3
+        </span>
+        <br />
+      </div>
+      <div>
+        <input
+          checked={true}
+          name="duration"
+          onChange={[Function]}
+          required={true}
+          type="radio"
+          value={6}
+        />
+        <span>
+          6
+           months, price usd per gb:
+           
+          2.5
+        </span>
+        <br />
+      </div>
+      <div>
+        <input
+          checked={false}
+          name="duration"
+          onChange={[Function]}
+          required={true}
+          type="radio"
+          value={12}
+        />
+        <span>
+          12
+           months, price usd per gb:
+           
+          2
+        </span>
+        <br />
+      </div>
+    </div>
+    <div
+      className="SubscriptionFormGroup"
+    >
+      <label
+        className="SubscriptionFormGroup__label"
+        htmlFor="storage"
+      >
+        Amount of gigabytes in a cloud:
+      </label>
+      <br />
+      <div>
+        <input
+          checked={true}
+          name="storage"
+          onChange={[Function]}
+          required={true}
+          type="radio"
+          value={5}
+        />
+        <span>
+          5
+           GB
+        </span>
+        <br />
+      </div>
+      <div>
+        <input
+          checked={false}
+          name="storage"
+          onChange={[Function]}
+          required={true}
+          type="radio"
+          value={10}
+        />
+        <span>
+          10
+           GB
+        </span>
+        <br />
+      </div>
+      <div>
+        <input
+          checked={false}
+          name="storage"
+          onChange={[Function]}
+          required={true}
+          type="radio"
+          value={50}
+        />
+        <span>
+          50
+           GB
+        </span>
+        <br />
+      </div>
+    </div>
+    <div
+      className="SubscriptionFormGroup"
+    >
+      <label
+        className="SubscriptionFormGroup__label"
+        htmlFor="upfrontPayment"
+      >
+        Upfront payment:
+      </label>
+      <input
+        checked={false}
+        name="upfrontPayment"
+        onChange={[Function]}
+        required={true}
+        type="radio"
+        value="No"
+      />
+       
+      No
+      <input
+        checked={true}
+        name="upfrontPayment"
+        onChange={[Function]}
+        required={true}
+        type="radio"
+        value="Yes"
+      />
+       
+      Yes
+    </div>
+  </form>
+</div>
+`;
+
+exports[`create subscription snapshot create snapshot 1`] = `
+<div
+  className="Subscription"
+>
+  <h4>
+    Subscription Parameters
+  </h4>
+  <form
+    className="SubscriptionForm"
+  >
+    <div
+      className="SubscriptionFormGroup"
+    >
+      <label
+        className="SubscriptionFormGroup__label"
+        htmlFor="duration"
+      >
+        Duration:
+      </label>
+      <br />
+      <div>
+        <input
+          checked={false}
+          name="duration"
+          onChange={[Function]}
+          required={true}
+          type="radio"
+          value={3}
+        />
+        <span>
+          3
+           months, price usd per gb:
+           
+          3
+        </span>
+        <br />
+      </div>
+      <div>
+        <input
+          checked={true}
+          name="duration"
+          onChange={[Function]}
+          required={true}
+          type="radio"
+          value={6}
+        />
+        <span>
+          6
+           months, price usd per gb:
+           
+          2.5
+        </span>
+        <br />
+      </div>
+      <div>
+        <input
+          checked={false}
+          name="duration"
+          onChange={[Function]}
+          required={true}
+          type="radio"
+          value={12}
+        />
+        <span>
+          12
+           months, price usd per gb:
+           
+          2
+        </span>
+        <br />
+      </div>
+    </div>
+    <div
+      className="SubscriptionFormGroup"
+    >
+      <label
+        className="SubscriptionFormGroup__label"
+        htmlFor="storage"
+      >
+        Amount of gigabytes in a cloud:
+      </label>
+      <br />
+      <div>
+        <input
+          checked={true}
+          name="storage"
+          onChange={[Function]}
+          required={true}
+          type="radio"
+          value={5}
+        />
+        <span>
+          5
+           GB
+        </span>
+        <br />
+      </div>
+      <div>
+        <input
+          checked={false}
+          name="storage"
+          onChange={[Function]}
+          required={true}
+          type="radio"
+          value={10}
+        />
+        <span>
+          10
+           GB
+        </span>
+        <br />
+      </div>
+      <div>
+        <input
+          checked={false}
+          name="storage"
+          onChange={[Function]}
+          required={true}
+          type="radio"
+          value={50}
+        />
+        <span>
+          50
+           GB
+        </span>
+        <br />
+      </div>
+    </div>
+    <div
+      className="SubscriptionFormGroup"
+    >
+      <label
+        className="SubscriptionFormGroup__label"
+        htmlFor="upfrontPayment"
+      >
+        Upfront payment:
+      </label>
+      <input
+        checked={false}
+        name="upfrontPayment"
+        onChange={[Function]}
+        required={true}
+        type="radio"
+        value="No"
+      />
+       
+      No
+      <input
+        checked={true}
+        name="upfrontPayment"
+        onChange={[Function]}
+        required={true}
+        type="radio"
+        value="Yes"
+      />
+       
+      Yes
+    </div>
+  </form>
+</div>
+`;

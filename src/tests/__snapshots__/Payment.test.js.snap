@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create Payment snapshot create snapshot 1`] = `
+<div
+  className="Payment"
+>
+  <h4>
+    Payment Data 
+  </h4>
+  <div
+    className="PaymentPlan"
+  >
+    Subscription Plan: 
+    12
+     months,
+     
+    2
+    USD per GB
+  </div>
+  <div
+    className="PaymentTotal"
+  >
+    Amount of gigabytes in a cloud: 
+    10
+    GB
+  </div>
+  <div
+    className="PaymentTotal"
+  >
+    Upfront Payment: 
+    yes
+  </div>
+  <div
+    className="PaymentTotal"
+  >
+    Total Price: 
+    20
+    USD
+  </div>
+  <form
+    className="PaymentForm"
+  >
+    <div
+      className="PaymentFormGroup"
+    >
+      <label
+        className="PaymentFormGroup__label"
+        htmlFor="cardNumber"
+      >
+        Card Number
+      </label>
+      <input
+        name="cardNumber"
+        onChange={[Function]}
+        placeholder="Card Number"
+        required={true}
+        type="text"
+        value={1234}
+      />
+    </div>
+    <div
+      className="PaymentFormGroup"
+    >
+      <label
+        className="PaymentFormGroup__label"
+        htmlFor="expirationDate"
+      >
+        Expiration Date
+      </label>
+      <input
+        name="expirationDate"
+        onChange={[Function]}
+        placeholder="Expiration Date"
+        required={true}
+        type="date"
+        value="2021-06-30"
+      />
+    </div>
+    <div
+      className="PaymentFormGroup"
+    >
+      <label
+        className="PaymentFormGroup__label"
+        htmlFor="securityCode"
+      >
+        Security Code
+      </label>
+      <input
+        name="securityCode"
+        onChange={[Function]}
+        placeholder="Security Code"
+        required={true}
+        type="text"
+        value={1234}
+      />
+    </div>
+  </form>
+  <div
+    className="paymentError"
+  >
+    All fields must be completed inorder to proceed to next step
+  </div>
+</div>
+`;
